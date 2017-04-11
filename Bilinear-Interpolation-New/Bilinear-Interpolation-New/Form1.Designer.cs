@@ -34,6 +34,7 @@
             this.resizeBox = new System.Windows.Forms.TextBox();
             this.imageBtn = new System.Windows.Forms.Button();
             this.exitBtn = new System.Windows.Forms.Button();
+            this.timerLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.photoBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,6 +94,15 @@
             this.exitBtn.UseVisualStyleBackColor = true;
             this.exitBtn.Click += new System.EventHandler(this.exitBtn_Click);
             // 
+            // timerLabel
+            // 
+            this.timerLabel.AutoSize = true;
+            this.timerLabel.Location = new System.Drawing.Point(822, 327);
+            this.timerLabel.Name = "timerLabel";
+            this.timerLabel.Size = new System.Drawing.Size(106, 13);
+            this.timerLabel.TabIndex = 1;
+            this.timerLabel.Text = "                                 ";
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -102,6 +112,7 @@
             this.Controls.Add(this.exitBtn);
             this.Controls.Add(this.imageBtn);
             this.Controls.Add(this.resizeBtn);
+            this.Controls.Add(this.timerLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.photoBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -125,6 +136,7 @@
         private System.Windows.Forms.TextBox resizeBox;
         private System.Windows.Forms.Button imageBtn;
         private System.Windows.Forms.Button exitBtn;
+        private System.Windows.Forms.Label timerLabel;
     }
 }
 
